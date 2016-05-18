@@ -1,6 +1,6 @@
 ## Flyme_devices_Aries
 
-#基于秋大aosp 5.6.18使用官方flyme5工具插桩
+基于秋大aosp 5.6.18使用官方flyme5工具插桩
 
 使用方法：
 
