@@ -7,7 +7,7 @@
 1. 下载
 第一次下载时先 cd 到 devices 目录，然后输入：
 
-git clone https://github.com/FlymeOS/Flyme_devices_Aries.git --single-branch -b master
+git clone https://github.com/Starstok/Flyme_devices_Aries.git --single-branch -b master
 
 下载完成后建议对其重命名, cd 到 devices 目录，输入：
 
