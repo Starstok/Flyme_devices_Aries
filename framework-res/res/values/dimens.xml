@@ -12,11 +12,11 @@
     <dimen name="config_prefDialogWidth">320.0dip</dimen>
     <dimen name="config_viewConfigurationTouchSlop">8.0dip</dimen>
     <dimen name="config_viewMinFlingVelocity">50.0dip</dimen>
-    <dimen name="config_viewMaxFlingVelocity">2300.0dip</dimen>
-    <dimen name="config_minScalingSpan">27.0mm</dimen>
+    <dimen name="config_viewMaxFlingVelocity">8000.0dip</dimen>
+    <dimen name="config_minScalingSpan">35.0mm</dimen>
     <dimen name="config_minScalingTouchMajor">48.0dip</dimen>
     <dimen name="config_mediaMetadataBitmapMaxSize">320.0dip</dimen>
-    <dimen name="toast_y_offset">80.0dip</dimen>
+    <dimen name="toast_y_offset">64.0dip</dimen>
     <dimen name="status_bar_height">25.0dip</dimen>
     <dimen name="navigation_bar_height">48.0dip</dimen>
     <dimen name="navigation_bar_height_landscape">48.0dip</dimen>
@@ -168,7 +168,6 @@
     <dimen name="light_radius">600.0dip</dimen>
     <item type="dimen" name="ambient_shadow_alpha">0.075</item>
     <item type="dimen" name="spot_shadow_alpha">0.15</item>
-    <item type="dimen" name="APKTOOL_DUMMY_a8">false</item>
     <item type="dimen" name="disabled_alpha_leanback_formwizard">0.2</item>
     <item type="dimen" name="leanback_setup_alpha_animiation_max_opacity">1.0</item>
     <item type="dimen" name="leanback_setup_alpha_animiation_min_opacity">0.0</item>
@@ -221,7 +220,7 @@
     <dimen name="text_size_display_1_material">34.0sp</dimen>
     <dimen name="text_size_headline_material">24.0sp</dimen>
     <dimen name="text_size_title_material">20.0sp</dimen>
-    <dimen name="text_size_subhead_material">18.0sp</dimen>
+    <dimen name="text_size_subhead_material">16.0sp</dimen>
     <dimen name="text_size_title_material_toolbar">20.0dip</dimen>
     <dimen name="text_size_subtitle_material_toolbar">16.0dip</dimen>
     <dimen name="text_size_menu_material">16.0sp</dimen>
@@ -251,5 +250,6 @@
     <dimen name="edit_text_inset_bottom_material">7.0dip</dimen>
     <dimen name="dialog_padding_material">24.0dip</dimen>
     <dimen name="dialog_padding_top_material">18.0dip</dimen>
-    <dimen name="dialog_list_padding_vertical_material">0.0dip</dimen>
+    <dimen name="dialog_list_padding_vertical_material">8.0dip</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_a8">false</item>
 </resources>

@@ -84,12 +84,12 @@
         <item quantity="one">O oră</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">WLAN disponibil</item>
-        <item quantity="one">WLAN disponibil</item>
+        <item quantity="other">Reţele Wi-Fi disponibile</item>
+        <item quantity="one">Reţea Wi-Fi disponibilă</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">Vizualizare WLAN disponibil</item>
-        <item quantity="one">Vizualizare WLAN disponibil</item>
+        <item quantity="other">Reţele Wi-Fi deschise disponibile</item>
+        <item quantity="one">Reţea Wi-Fi deschisă disponibilă</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d din %2$d</item>

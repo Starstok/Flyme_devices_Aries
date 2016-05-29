@@ -84,12 +84,12 @@
         <item quantity="one">1 மணிநேரம்</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">கிடைக்கும் WLAN</item>
-        <item quantity="one">கிடைக்கும் WLAN</item>
+        <item quantity="other">வைஃபை நெட்வொர்க்குகள் உள்ளன</item>
+        <item quantity="one">வைஃபை நெட்வொர்க் உள்ளது</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">கிடைக்கின்ற WLAN -ஐப் பார்</item>
-        <item quantity="one">கிடைக்கின்ற WLAN -ஐப் பார்</item>
+        <item quantity="other">இருக்கும் வைஃபை நெட்வொர்க்குகளைத் திற</item>
+        <item quantity="one">இருக்கும் வைஃபை நெட்வொர்க்கைத் திற</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d இல் %2$d</item>

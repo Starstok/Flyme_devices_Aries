@@ -84,12 +84,12 @@
         <item quantity="one">1 godzina</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">Dostępna sieć WLAN</item>
-        <item quantity="one">Dostępna sieć WLAN</item>
+        <item quantity="other">Dostępne sieci Wi-Fi</item>
+        <item quantity="one">Sieć Wi-Fi jest dostępna</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">Wyświetl dostępną sieć WLAN</item>
-        <item quantity="one">Wyświetl dostępną sieć WLAN</item>
+        <item quantity="other">Otwórz dostępne sieci Wi-Fi</item>
+        <item quantity="one">Otwórz dostępne sieci Wi-Fi</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d z %2$d</item>

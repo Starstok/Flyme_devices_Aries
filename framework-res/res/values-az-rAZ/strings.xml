@@ -1312,10 +1312,6 @@ Uzun müddət yüksək səs gücü ilə dinləmə Sizin eşitmə qabiliyyətiniz
     <string name="restr_pin_try_later">Daha sonra yenidən yoxlayın.</string>
     <string name="ellipsis">...</string>
     <string name="ellipsis_two_dots">‥</string>
-    <string name="description_direction_up">%s üçün yuxarı sürüşdürün.</string>
-    <string name="description_direction_left">%s üçün sola sürüşdür.</string>
-    <string name="description_direction_right">%s üçün sağa sürüşdür.</string>
-    <string name="description_target_search">Axtar</string>
     <string name="permlab_retrieve_window_info">pəncərə infosunu bərpa edir</string>
     <string name="permdesc_retrieve_window_info">Tətbiqə pəncərə idarəçisindən gələn windows haqqında olan məlumatı bərpa etməyə imkan verir. Zərərli tətbiqlər daxili sistem istifadəsi üçün nəzərdə tutulan məlumatı bərpa edə bilər.</string>
     <string name="permlab_magnify_display">ekranı böyüdür</string>
@@ -1333,11 +1329,15 @@ Uzun müddət yüksək səs gücü ilə dinləmə Sizin eşitmə qabiliyyətiniz
     <string name="throttle_warning_notification_message">Mobil data istifadəsi haqqında daha çox öyrənmək üçün toxunun.</string>
     <string name="throttled_notification_title">Mobil data limiti keçildi</string>
     <string name="throttled_notification_message">Mobil data istifadəsi haqqında daha çox öyrənmək üçün toxunun.</string>
+    <string name="description_direction_up">%s üçün yuxarı sürüşdürün.</string>
     <string name="description_direction_down">%s üçün aşağı sürüşdürün.</string>
+    <string name="description_direction_left">%s üçün sola sürüşdür.</string>
+    <string name="description_direction_right">%s üçün sağa sürüşdür.</string>
     <string name="description_target_unlock">Kilidi aç</string>
     <string name="description_target_camera">Kamera</string>
     <string name="description_target_silent">Səssiz</string>
     <string name="description_target_soundon">Səs açıqdır</string>
+    <string name="description_target_search">Axtar</string>
     <string name="media_route_chooser_grouping_done">Hazırdır</string>
     <string name="wifi_display_notification_title">Simsiz ekran qoşulub</string>
     <string name="wifi_display_notification_message">Bu ekran digər cihazda göstərir</string>

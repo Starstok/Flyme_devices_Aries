@@ -84,12 +84,12 @@
         <item quantity="one">1 год</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">доступні WLAN</item>
-        <item quantity="one">доступні WLAN</item>
+        <item quantity="other">Wi-Fi мережі доступні</item>
+        <item quantity="one">Wi-Fi мережа доступна</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">доступні WLAN</item>
-        <item quantity="one">доступні WLAN</item>
+        <item quantity="other">Відкриті Wi-Fi мережі доступні</item>
+        <item quantity="one">Відкрита Wi-Fi мережа доступна</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d з %2$d</item>

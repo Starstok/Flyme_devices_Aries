@@ -6,7 +6,6 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/android/server/power/Notifier$FlymeInjector;,
         Lcom/android/server/power/Notifier$NotifierHandler;
     }
 .end annotation
@@ -52,8 +51,6 @@
 .field private mBroadcastedInteractiveState:I
 
 .field private final mContext:Landroid/content/Context;
-
-.field mFlymeAccessControlManager:Lmeizu/security/AccessControlManager;
 
 .field private final mGoToSleepBroadcastDone:Landroid/content/BroadcastReceiver;
 
@@ -1046,6 +1043,8 @@
     return-void
 .end method
 
+
+# virtual methods
 .method public onUserActivity(II)V
     .locals 4
     .param p1, "event"    # I
@@ -1523,15 +1522,4 @@
 
     .line 391
     return-void
-.end method
-
-
-# virtual methods
-.method flymeGetFieldContext()Landroid/content/Context;
-    .locals 1
-
-    .prologue
-    iget-object v0, p0, Lcom/android/server/power/Notifier;->mContext:Landroid/content/Context;
-
-    return-object v0
 .end method

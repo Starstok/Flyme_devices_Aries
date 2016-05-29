@@ -84,12 +84,12 @@
         <item quantity="one">שעה אחת</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">נמצאו רשתות Wi-Fi</item>
-        <item quantity="one">נמצאו רשתות Wi-Fi</item>
+        <item quantity="other">‏רשתות Wi-Fi זמינות</item>
+        <item quantity="one">‏רשת Wi-Fi זמינה</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">נמצאו רשתות Wi-Fi</item>
-        <item quantity="one">נמצאו רשתות Wi-Fi</item>
+        <item quantity="other">‏רשתות Wi-Fi פתוחות זמינות</item>
+        <item quantity="one">‏רשת Wi-Fi פתוחה זמינה</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d מתוך %2$d</item>

@@ -84,12 +84,12 @@
         <item quantity="one">ساعة واحدة</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">شبكة WLAN متاحة</item>
-        <item quantity="one">شبكة WLAN متاحة</item>
+        <item quantity="other">‏شبكات Wi-Fi متاحة</item>
+        <item quantity="one">‏شبكة Wi-Fi متاحة</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">عرض شبكة WLAN المتاحة</item>
-        <item quantity="one">عرض شبكة WLAN المتاحة</item>
+        <item quantity="other">‏هناك شبكات Wi-Fi مفتوحة متاحة</item>
+        <item quantity="one">‏هناك شبكة Wi-Fi مفتوحة متاحة</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d من %2$d</item>

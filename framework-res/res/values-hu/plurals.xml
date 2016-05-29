@@ -84,12 +84,12 @@
         <item quantity="one">1 óra</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">WYLAN elérhető</item>
-        <item quantity="one">WYLAN elérhető</item>
+        <item quantity="other">Wi-Fi hálózatok elérhetők</item>
+        <item quantity="one">Wi-Fi hálózat elérhető</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">Rendelkezésre álló WLAN hálózat megtekintése</item>
-        <item quantity="one">Rendelkezésre álló WLAN hálózat megtekintése</item>
+        <item quantity="other">Nyílt Wi-Fi hálózatok elérhetők</item>
+        <item quantity="one">Nyílt Wi-Fi hálózat elérhető</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d/%2$d</item>

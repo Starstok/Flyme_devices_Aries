@@ -529,8 +529,6 @@
     .restart local v3    # "uid":I
     if-eqz v3, :cond_1
 
-    goto/16 :goto_1
-
     const/16 v4, 0x3e8
 
     if-ne v3, v4, :cond_2
@@ -557,7 +555,6 @@
 
     .line 100
     :cond_2
-    :goto_1
     const-wide/16 v6, 0x10
 
     :try_start_1
@@ -662,7 +659,8 @@
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_1
     .catchall {:try_start_5 .. :try_end_5} :catchall_3
 
-    :goto_2
+    .line 127
+    :goto_1
     :try_start_6
     sget-object v4, Landroid/webkit/WebViewFactory;->sProviderInstance:Landroid/webkit/WebViewFactoryProvider;
     :try_end_6
@@ -763,7 +761,7 @@
     .catch Ljava/lang/Exception; {:try_start_c .. :try_end_c} :catch_2
     .catchall {:try_start_c .. :try_end_c} :catchall_3
 
-    goto :goto_2
+    goto :goto_1
 
     .line 128
     .end local v0    # "e":Ljava/lang/Exception;
@@ -1005,7 +1003,7 @@
 
     move-result-object v0
 
-    const v1, #android:string@config_webViewPackageName#t
+    const v1, 0x104004a
 
     invoke-virtual {v0, v1}, Landroid/app/Application;->getString(I)Ljava/lang/String;
 

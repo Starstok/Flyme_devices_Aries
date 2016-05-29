@@ -84,12 +84,12 @@
         <item quantity="one">១ ម៉ោង</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">មានបណ្តាញ WLAN</item>
-        <item quantity="one">មានបណ្តាញ WLAN</item>
+        <item quantity="other">មាន​បណ្ដាញ​វ៉ាយហ្វាយ</item>
+        <item quantity="one">មាន​បណ្ដាញ​វ៉ាយហ្វាយ</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">បើលមើលបណ្តាញ WLAN ដែលមាន</item>
-        <item quantity="one">បើលមើលបណ្តាញ WLAN ដែលមាន</item>
+        <item quantity="other">មាន​បណ្ដាញ​វ៉ាយហ្វាយ​បើក</item>
+        <item quantity="one">បើក​បណ្ដាញ​វ៉ាយហ្វាយ​​ដែល​មាន</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d នៃ %2$d</item>

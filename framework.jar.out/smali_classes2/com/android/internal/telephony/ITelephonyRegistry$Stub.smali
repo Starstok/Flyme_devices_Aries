@@ -28,8 +28,6 @@
 
 .field static final TRANSACTION_addOnSubscriptionsChangedListener:I = 0x1
 
-.field static final TRANSACTION_isImsRegistered:I = 0x77
-
 .field static final TRANSACTION_listen:I = 0x3
 
 .field static final TRANSACTION_listenForSubscriber:I = 0x4

@@ -1046,10 +1046,16 @@ Opravdu tuto stránku chcete opustit?"</string>
     <string name="aerr_application">Aplikace %1$s bohužel přestala pracovat.</string>
     <string name="aerr_process">Proces %1$s byl bohužel ukončen.</string>
     <string name="anr_title" />
-    <string name="anr_activity_application">%2$s nereaguje. Chcete ji uzavřít?</string>
-    <string name="anr_activity_process">Aktivita %1$s nereaguje, chcete ji uzavřít?</string>
-    <string name="anr_application_process">%1$s nereaguje, vypnout?</string>
-    <string name="anr_process">Proces %1$s nereaguje. Chcete jej uzavřít?</string>
+    <string name="anr_activity_application">"Aplikace %2$s nereaguje.
+
+Chcete ji ukončit?"</string>
+    <string name="anr_activity_process">"Aktivita %1$s nereaguje.
+
+Chcete ji ukončit?"</string>
+    <string name="anr_application_process">Aplikace %1$s nereaguje. Chcete ji ukončit?</string>
+    <string name="anr_process">"Proces %1$s nereaguje.
+
+Chcete jej ukončit?"</string>
     <string name="force_close">OK</string>
     <string name="report">Hlášení</string>
     <string name="wait">Počkat</string>
@@ -1064,8 +1070,8 @@ Chcete ji zavřít?"</string>
     <string name="screen_compat_mode_hint">Tento režim znovu povolíte v sekci Nastavení systému > Aplikace > Stažené.</string>
     <string name="smv_application">Aplikace %1$s (proces %2$s) porušila své vlastní vynucené zásady StrictMode.</string>
     <string name="smv_process">Proces %1$s porušil své vlastní vynucené zásady StrictMode.</string>
-    <string name="android_upgrading_title">Probíhá upgrade systému…</string>
-    <string name="android_start_title">Systém se spouští…</string>
+    <string name="android_upgrading_title">Android se upgraduje...</string>
+    <string name="android_start_title">Spouštění systému Android…</string>
     <string name="android_upgrading_fstrim">Probíhá optimalizace úložiště.</string>
     <string name="android_upgrading_apk">Optimalizování aplikace %1$d z %2$d.</string>
     <string name="android_upgrading_starting_apps">Spouštění aplikací.</string>
@@ -1098,7 +1104,7 @@ Chcete ji zavřít?"</string>
     <string name="ringtone_silent">Žádné</string>
     <string name="ringtone_picker_title">Vyzváněcí tóny</string>
     <string name="ringtone_unknown">Neznámý vyzváněcí tón</string>
-    <string name="wifi_available_sign_in">Přihlásit k WLAN</string>
+    <string name="wifi_available_sign_in">Přihlásit se k síti Wi-Fi</string>
     <string name="network_available_sign_in">Přihlášení k síti</string>
     <string name="wifi_watchdog_network_disabled">Připojení k síti Wi-Fi se nezdařilo</string>
     <string name="wifi_watchdog_network_disabled_detailed">" má pomalé připojení k internetu."</string>
@@ -1121,7 +1127,7 @@ Chcete ji zavřít?"</string>
     <string name="sms_control_message">Aplikace &lt;b>%1$s&lt;/b>odesílá velký počet SMS zpráv. Chcete aplikaci povolit, aby zprávy odesílala i nadále?</string>
     <string name="sms_control_yes">Povolit</string>
     <string name="sms_control_no">Odmítnout</string>
-    <string name="sms_short_code_confirm_message">Are you sure want to send this message?</string>
+    <string name="sms_short_code_confirm_message">&lt;b>%1$s&lt;/b> chce odeslat zprávu na adresu &lt;b>%2$s&lt;/b>.</string>
     <string name="sms_short_code_details">Tato akce <b>může vést k naúčtování poplatků</b> na váš účet u mobilního operátora.</string>
     <string name="sms_premium_short_code_details"><b>Tato akce povede k naúčtování poplatku na váš účet u mobilního operátora.</b></string>
     <string name="sms_short_code_confirm_allow">Odeslat</string>
@@ -1145,34 +1151,34 @@ Chcete ji zavřít?"</string>
     <string name="no_permissions">Nejsou vyžadována žádná oprávnění</string>
     <string name="perm_costs_money">může vás to něco stát</string>
     <string name="usb_storage_activity_title">Velkokapacitní úložiště USB</string>
-    <string name="usb_storage_title">Připojeno přes USB. Zaškrtněte políčko pro vytvoření tetheringu.</string>
-    <string name="usb_storage_message">Připojili jste se k počítači pomocí rozhraní USB. Chcete-li kopírovat soubory z počítače na kartu SD v zařízení Android či obráceně, stiskněte tlačítko níže.</string>
+    <string name="usb_storage_title">USB připojeno</string>
+    <string name="usb_storage_message">Připojili jste se k počítači pomocí rozhraní USB. Chcete-li kopírovat soubory z počítače do úložiště USB v zařízení Android či obráceně, klepněte na tlačítko níže.</string>
     <string name="usb_storage_button_mount">Zapnout úložiště USB</string>
-    <string name="usb_storage_error_message">Problém s použitím karty SD jako velkokapacitního úložiště USB.</string>
-    <string name="usb_storage_notification_title">Připojeno přes USB. Zaškrtněte políčko pro vytvoření tetheringu.</string>
+    <string name="usb_storage_error_message">Problém s použitím úložiště USB jako velkokapacitního úložiště USB.</string>
+    <string name="usb_storage_notification_title">USB připojeno</string>
     <string name="usb_storage_notification_message">Dotykem můžete kopírovat soubory do nebo z počítače.</string>
     <string name="usb_storage_stop_notification_title">Vypnout úložiště USB</string>
     <string name="usb_storage_stop_notification_message">Dotykem vypnete úložiště USB.</string>
     <string name="usb_storage_stop_title">Úložiště USB je používáno</string>
-    <string name="usb_storage_stop_message">Před vypnutím úložiště USB nejdříve kartu SD zařízení Android v počítači odpojte (odeberte).</string>
+    <string name="usb_storage_stop_message">Nejdříve úložiště USB zařízení Android v počítači odpojte (odeberte) a teprve poté jej vypněte.</string>
     <string name="usb_storage_stop_button_mount">Vypnout úložiště USB</string>
     <string name="usb_storage_stop_error_message">Při vypínání úložiště USB došlo k chybě. Zkontrolujte, zda byl hostitel USB odpojen, a zkuste to znovu.</string>
     <string name="dlg_confirm_kill_storage_users_title">Zapnout úložiště USB</string>
     <string name="dlg_confirm_kill_storage_users_text">Pokud zapnete úložiště USB, dojde k zastavení některých používaných aplikací. Tyto aplikace pravděpodobně nebudou k dispozici až do vypnutí úložiště USB.</string>
-    <string name="dlg_error_title">USB operace se nezdařila</string>
+    <string name="dlg_error_title">Operace rozhraní USB se nezdařila.</string>
     <string name="dlg_ok">OK</string>
-    <string name="usb_mtp_notification_title">Přenést soubory do PC</string>
-    <string name="usb_ptp_notification_title">Přenést fotografie do PC</string>
+    <string name="usb_mtp_notification_title">Připojeno jako mediální zařízení</string>
+    <string name="usb_ptp_notification_title">Připojeno jako fotoaparát</string>
     <string name="usb_cd_installer_notification_title">Připojeno jako instalátor</string>
     <string name="usb_accessory_notification_title">Připojeno k perifernímu zařízení USB</string>
     <string name="usb_notification_message">Dotykem zobrazíte další možnosti rozhraní USB.</string>
-    <string name="extmedia_format_title">Formátovat kartu SD?</string>
-    <string name="extmedia_format_message">Všechna data na kartě budou ztracena.</string>
+    <string name="extmedia_format_title">Formátovat úložiště USB?</string>
+    <string name="extmedia_format_message">Všechny soubory uložené v úložišti USB budou vymazány. Tuto akci nelze vrátit zpět.</string>
     <string name="extmedia_format_button_format">Formátovat</string>
     <string name="adb_active_notification_title">Ladění přes rozhraní USB připojeno</string>
-    <string name="adb_active_notification_message">Dotykem zakážete ladění přes rozhraní USB.</string>
-    <string name="select_input_method">Vyberte metodu zadávání</string>
-    <string name="configure_input_methods">Nastavit metodu zadávání</string>
+    <string name="adb_active_notification_message">Dotykem zakážete ladění USB.</string>
+    <string name="select_input_method">Změna klávesnice</string>
+    <string name="configure_input_methods">Vyberte klávesnice</string>
     <string name="show_ime">Zobrazit metodu zadávání</string>
     <string name="hardware">Hardware</string>
     <string name="select_keyboard_layout_notification_title">Výběr rozložení klávesnice</string>
@@ -1180,18 +1186,18 @@ Chcete ji zavřít?"</string>
     <string name="fast_scroll_alphabet">" AÁBCČDĎEÉĚFGHCHIÍJKLMNŇOÓPQRŘSŠTŤUÚVWXYÝZŽ"</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789AÁBCČDĎEÉĚFGHCHIÍJKLMNŇOÓPQRŘSŠTŤUÚVWXYÝZŽ"</string>
     <string name="candidates_style"><u>kandidáti</u></string>
-    <string name="ext_media_checking_notification_title">Příprava karty SD</string>
+    <string name="ext_media_checking_notification_title">Příprava úložiště USB</string>
     <string name="ext_media_checking_notification_message">Kontrola chyb.</string>
-    <string name="ext_media_nofs_notification_title">Prázdná karta SD</string>
-    <string name="ext_media_nofs_notification_message">Karta SD je prázdná nebo obsahuje nepodporovaný systém souborů.</string>
-    <string name="ext_media_unmountable_notification_title">Poškozená karta SD</string>
-    <string name="ext_media_unmountable_notification_message">Karta SD je poškozena. Zkuste ji přeformátovat.</string>
-    <string name="ext_media_badremoval_notification_title">Karta SD byla neočekávaně vyjmuta.</string>
-    <string name="ext_media_badremoval_notification_message">Před odebráním karty SD ji nejprve odpojte. Zabráníte tak ztrátě dat.</string>
-    <string name="ext_media_safe_unmount_notification_title">Kartu SD lze bezpečně odebrat</string>
-    <string name="ext_media_safe_unmount_notification_message">Kartu SD lze bezpečně odebrat.</string>
-    <string name="ext_media_nomedia_notification_title">Karta SD odebrána</string>
-    <string name="ext_media_nomedia_notification_message">Karta SD byla odebrána. Vložte novou kartu.</string>
+    <string name="ext_media_nofs_notification_title">Prázdné úložiště USB</string>
+    <string name="ext_media_nofs_notification_message">Úložiště USB je prázdné nebo obsahuje nepodporovaný systém souborů.</string>
+    <string name="ext_media_unmountable_notification_title">Úložiště USB je poškozeno</string>
+    <string name="ext_media_unmountable_notification_message">Úložiště USB je poškozeno. Zkuste ho přeformátovat.</string>
+    <string name="ext_media_badremoval_notification_title">Úložiště USB nečekaně odebráno</string>
+    <string name="ext_media_badremoval_notification_message">Před odebráním úložiště USB ho nejprve odpojte. Zabráníte tak ztrátě dat.</string>
+    <string name="ext_media_safe_unmount_notification_title">Úložiště USB lze odebrat</string>
+    <string name="ext_media_safe_unmount_notification_message">Úložiště USB lze bezpečně odebrat.</string>
+    <string name="ext_media_nomedia_notification_title">Úložiště USB odebráno</string>
+    <string name="ext_media_nomedia_notification_message">Úložiště USB odebráno. Vložte nové médium.</string>
     <string name="activity_list_empty">Nebyly nalezeny žádné odpovídající aktivity.</string>
     <string name="permlab_pkgUsageStats">aktualizovat statistiku použití součástí</string>
     <string name="permdesc_pkgUsageStats">Umožňuje aplikaci upravit shromážděné statistiky využití komponent. Toto oprávnění není určeno pro běžné aplikace.</string>

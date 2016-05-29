@@ -84,12 +84,12 @@
         <item quantity="one">1 saat</item>
     </plurals>
     <plurals name="wifi_available">
-        <item quantity="other">Kullanılabilir WLAN</item>
-        <item quantity="one">Kullanılabilir WLAN</item>
+        <item quantity="other">Kablosuz ağlar var</item>
+        <item quantity="one">Kablosuz ağ var</item>
     </plurals>
     <plurals name="wifi_available_detailed">
-        <item quantity="other">"Mevcut WLAN'ı görüntüle"</item>
-        <item quantity="one">"Mevcut WLAN'ı görüntüle"</item>
+        <item quantity="other">Kullanılabilir kablosuz ağları aç</item>
+        <item quantity="one">Kullanılabilir kablosuz ağı aç</item>
     </plurals>
     <plurals name="matches_found">
         <item quantity="other">%1$d / %2$d</item>
