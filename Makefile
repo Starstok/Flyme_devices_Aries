@@ -143,6 +143,7 @@ board_modify_apps := Settings TeleService SystemUI FlymeLauncher
 override_property += \
     ro.flyme.romer=Starstok \
     ro.product.device=aries \
+	 ro.ota_version=5.1.1-6.6.2-27Rbeta
     ro.product.model_romer=Ariea_Starstok
 
 ##############################################################################

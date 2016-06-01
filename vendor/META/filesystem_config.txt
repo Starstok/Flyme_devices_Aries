@@ -104,8 +104,6 @@ system/app/SoundRecorder 0 0 755 selabel=u:object_r:system_file:s0 capabilities=
 system/app/SoundRecorder/SoundRecorder.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Stk 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Stk/Stk.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/SuperSU 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/app/SuperSU/SuperSU.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/TimeService 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/TimeService/TimeService.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/app/Updater 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -805,7 +803,6 @@ system/framework/conscrypt.jar 0 0 644 selabel=u:object_r:system_file:s0 capabil
 system/framework/content.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/core-junit.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/core-libart.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/framework/dolby_ds.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/dpm.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/ethernet-service.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/framework/ext.jar 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1494,8 +1491,6 @@ system/priv-app/VpnDialogs/VpnDialogs.apk 0 0 644 selabel=u:object_r:system_file
 system/priv-app/WallpaperCropper 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/priv-app/WallpaperCropper/WallpaperCropper.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/recovery-from-boot.p 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/supersu 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/supersu/SuperSU.zip 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/tts 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/tts/lang_pico 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/tts/lang_pico/de-DE_gl0_sg.bin 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
@@ -1573,15 +1568,8 @@ system/usr/share/bmd/RFFstd_501.bmd 0 0 644 selabel=u:object_r:system_file:s0 ca
 system/usr/share/zoneinfo 0 0 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/usr/share/zoneinfo/tzdata 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/vendor/app 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/vendor/app/Ds 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/vendor/app/Ds/Ds.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/vendor/app/DsUI 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/vendor/app/DsUI/DsUI.apk 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/etc 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/etc/audio_effects.conf 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/vendor/etc/dolby 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
-system/vendor/etc/dolby/ds1-default.xml 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/firmware 0 2000 755 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/firmware/a300_pfp.fw 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
 system/vendor/firmware/a300_pm4.fw 0 0 644 selabel=u:object_r:system_file:s0 capabilities=0x0
