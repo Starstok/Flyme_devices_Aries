@@ -288,7 +288,7 @@
     <string name="global_action_settings">Settings</string>
     <string name="global_action_lockdown">Lock now</string>
     <string name="safeMode">Safe mode</string>
-    <string name="android_system_label">Android System</string>
+    <string name="android_system_label">Flyme system service</string>
     <string name="user_owner_label">Personal apps</string>
     <string name="managed_profile_label">Work</string>
     <string name="permgrouplab_costMoney">Services that cost you money</string>
@@ -1215,8 +1215,8 @@ Do you want to close it?"</string>
     <string name="screen_compat_mode_hint">Re-enable this in System settings > Apps > Downloaded.</string>
     <string name="smv_application">The app %1$s (process %2$s) has violated its self-enforced StrictMode policy.</string>
     <string name="smv_process">The process %1$s has has violated its self-enforced StrictMode policy.</string>
-    <string name="android_upgrading_title">Android is upgrading…</string>
-    <string name="android_start_title">Android is starting…</string>
+    <string name="android_upgrading_title">System is upgrading…</string>
+    <string name="android_start_title">System is starting…</string>
     <string name="android_upgrading_fstrim">Optimizing storage.</string>
     <string name="android_upgrading_apk">Optimizing app %1$d of %2$d.</string>
     <string name="android_upgrading_starting_apps">Starting apps.</string>
@@ -1274,7 +1274,7 @@ Do you want to close it?"</string>
     <string name="sms_control_message">&lt;b>%1$s&lt;/b> is sending a large number of SMS messages. Do you want to allow this app to continue sending messages?</string>
     <string name="sms_control_yes">Allow</string>
     <string name="sms_control_no">Deny</string>
-    <string name="sms_short_code_confirm_message">&lt;b>%1$s&lt;/b> would like to send a message to &lt;b>%2$s&lt;/b>.</string>
+    <string name="sms_short_code_confirm_message">Sent the message?</string>
     <string name="sms_short_code_details">This <b>may cause charges</b> on your mobile account.</string>
     <string name="sms_premium_short_code_details"><b>This will cause charges on your mobile account.</b></string>
     <string name="sms_short_code_confirm_allow">Send</string>

@@ -193,7 +193,7 @@
     <string name="global_action_settings">设置</string>
     <string name="global_action_lockdown">立即锁定</string>
     <string name="safeMode">安全模式</string>
-    <string name="android_system_label">Android系统</string>
+    <string name="android_system_label">Flyme系统服务</string>
     <string name="user_owner_label">个人应用</string>
     <string name="managed_profile_label">工作</string>
     <string name="permgrouplab_costMoney">需要您付费的服务</string>
@@ -1074,8 +1074,8 @@
     <string name="screen_compat_mode_hint">在“系统设置”>“应用”>“已下载”中重新启用此模式。</string>
     <string name="smv_application">“%1$s”应用（%2$s 进程）违反了自我强制执行的严格模式 (StrictMode) 政策。</string>
     <string name="smv_process">进程 %1$s 违反了自我强制执行的严格模式 (StrictMode) 政策。</string>
-    <string name="android_upgrading_title">Android正在升级...</string>
-    <string name="android_start_title">Android 正在启动…</string>
+    <string name="android_upgrading_title">系统正在升级...</string>
+    <string name="android_start_title">系统 正在启动…</string>
     <string name="android_upgrading_fstrim">正在优化存储空间。</string>
     <string name="android_upgrading_apk">正在优化第%1$d个应用（共%2$d个）。</string>
     <string name="android_upgrading_starting_apps">正在启动应用。</string>
@@ -1131,7 +1131,7 @@
     <string name="sms_control_message">&lt;b>%1$s&lt;/b>在发送大量短信。是否允许该应用继续发送短信？</string>
     <string name="sms_control_yes">允许</string>
     <string name="sms_control_no">拒绝</string>
-    <string name="sms_short_code_confirm_message">&lt;b>%1$s&lt;/b>想要向 &lt;b>%2$s&lt;/b> 发送一条短信。</string>
+    <string name="sms_short_code_confirm_message">确定发送信息?</string>
     <string name="sms_short_code_details"><b>这可能会导致您的手机号产生费用。</b></string>
     <string name="sms_premium_short_code_details"><b>这会导致您的手机号产生费用。</b></string>
     <string name="sms_short_code_confirm_allow">发送</string>

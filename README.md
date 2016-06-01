@@ -25,6 +25,10 @@ $ source build/envsetup.sh
 
 $ cd devices/Aries
 
+$ flyme cleanall
+
+$ flyme upgrade 	//更新到最新版本
+
 $ flyme fullota
 
 等待编译完成，其编译好的包在out目录下
