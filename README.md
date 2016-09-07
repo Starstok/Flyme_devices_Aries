@@ -2,9 +2,21 @@
 
 基于秋大aosp 5.6.18使用官方flyme5工具插桩
 
+#Flyme5代码下载
+通过repo init命令的-b参数, 选择需要下载的分支。 通过repo sync命令同步远程代码:
+
+$ repo init -u https://github.com/FlymeOS/manifest.git -b lollipop-5.1
+$ repo sync -c -j4
+如果连接一直失败或下载代码过慢，则使用以下命令:
+
+$ repo init --repo-url git://github.com/FlymeOS/repo.git \
+            -u https://github.com/FlymeOS/manifest.git \
+            -b lollipop-5.1 --no-repo-verify
+$ repo sync --no-clone-bundle -c -j4
+
 使用方法：
 
-1. 下载
+1. 下载插桩完成的代码
 第一次下载时先 cd 到 devices 目录，然后输入：
 
 git clone https://github.com/Starstok/Flyme_devices_Aries.git --single-branch -b master
